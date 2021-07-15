@@ -1,0 +1,1 @@
+An e-commerce company landing page, as part of a challenge from Gama Academy.
