@@ -1,6 +1,4 @@
 import Navbar from "../header/Navbar";
-import bgSectionOne from "../../assets/images/background/bg-1.jpg";
-import bgGradient from "../../assets/images/background/bg-gradient.png";
 import banner from "../../assets/images/banner/black-friday.png";
 import ProductCard from "../card/ProductCard";
 import battlefield from "../../assets/images/game-cover/battlefield.jpg";

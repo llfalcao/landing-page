@@ -39,14 +39,17 @@
 }
 
 #sidebar {
-    background-color: #1d2021;
+    background: rgba(10, 10, 10, 0.5);
     display: block;
     margin: 10px;
     width: 20vw;
-    border-radius: 15px;
+    border: 1px solid rgb(66, 66, 66);
+    border-top-right-radius: 30px;
+    height: fit-content;
 
     & header {
         font-weight: bold;
+        font-size: 1.5rem;
         display: block;
         text-align: center;
         margin: 5px;
@@ -55,17 +58,18 @@
     }
 
     & a {
-        display: flex;
+        display: block;
         border-width: 1px;
         margin: 5px;
         padding: 10px;
         border-color: #5c5c5c transparent transparent;
         border-style: solid;
         color: $foregroundTextWhite;
+        text-decoration: none;
     }
 
     & a:hover {
-        background-color: rgb(26, 26, 26);
+        background-color: #222;
         transition: 0.5s;
     }
 }
@@ -78,13 +82,21 @@
     align-items: flex-start;
 }
 
+#banner {
+    width: 30vw;
+    height: auto;
+    margin: 2.8rem 0 0 2rem;
+}
+
 #main-offers {
+    width: 50vw;
+    height: 100%;
+    margin: 0 2rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     text-align: center;
-    height: 100%;
 }
 
 #headline {
@@ -110,6 +122,10 @@
     align-items: center;
     flex-wrap: wrap;
     margin: 10px 30px;
+    padding: 30px;
+    background: $transparentDarkBg;
+    background: rgba(10, 10, 10, 0.5);
+    border: 1px solid rgb(66, 66, 66);
 
     & p {
         text-align: center;
@@ -121,12 +137,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 180px;
+    width: 200px;
     height: 290px;
     margin: 10px;
+    background: linear-gradient(
+        to bottom,
+        rgba(165, 165, 165, 0.02),
+        rgba(48, 48, 48, 0.2),
+        rgba(165, 165, 165, 0.1)
+    );
+    border-radius: 5px;
+    border: 1px solid rgb(48, 48, 48);
+    cursor: pointer;
 
     & div {
-        width: 75%;
+        width: 130px;
         height: 200px;
         margin: 10px;
     }
@@ -156,8 +181,11 @@
     font-size: 1.1rem;
     font-weight: 600;
     border-radius: 5px;
+    border: 1px solid rgb(228, 228, 228);
+    background: #ccc;
+    color: rgb(48, 48, 48);
 
     & .fa {
-        color: $buttonColor;
+        color: $btnForegroundColor;
     }
 }

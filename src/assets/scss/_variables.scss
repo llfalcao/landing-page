@@ -1,7 +1,7 @@
 $foregroundTextWhite: #eee;
 $fontRoboto: "Roboto", sans-serif;
-$darkBackground: #111111;
-$patternBackground: url("../images/background/bg-1.jpg");
-$buttonColor: rgb(58, 122, 58);
+$transparentDarkBg: rgba(59, 59, 59, 0.2);
+$patternBg: url("../images/background/bg-1.jpg");
+$btnForegroundColor: rgb(58, 122, 58);
 $fontLogo: "Oxanium", sans-serif;
-$golden: #e6d00fea;
+$golden: rgb(255, 230, 87);

@@ -1,5 +1,5 @@
 body {
-    background: $patternBackground;
+    background: $patternBg;
     font-family: $fontRoboto;
     color: $foregroundTextWhite;
     min-height: 100%;
@@ -24,6 +24,6 @@ body {
 }
 
 .footer {
-    background-color: $darkBackground;
+    background-color: $transparentDarkBg;
     height: 20vh;
 }
