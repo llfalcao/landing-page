@@ -8,16 +8,7 @@ import cyberpunk from "../../assets/images/game-cover/cyberpunk.jpg";
 import acvalhalla from "../../assets/images/game-cover/ac-valhalla.jpg";
 
 let HomeSectionOne = (
-    <section
-        className="section-one"
-        id="home"
-        // style={{
-        //     background: `linear-gradient(rgba(10, 10, 10, 0.8) 75%, transparent 100%)`,
-        //     // background: `linear-gradient(to bottom,rgba(10, 10, 10, 0.9) 50%, transparent), url('${bgSectionOne}')`,
-        //     backgroundImage: `url('${bgSectionOne}')`,
-        //     backgroundRepeat: "repeat",
-        // }}
-    >
+    <section className="section-one" id="home">
         {Navbar}
         <div id="section-one-content">
             <div id="banner">

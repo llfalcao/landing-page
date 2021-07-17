@@ -3,7 +3,7 @@
     justify-content: space-around;
     align-items: center;
     width: 100%;
-
+    font-weight: 600;
     font-size: calc(10px + 2vmin);
 
     & li {
@@ -22,7 +22,20 @@
     display: flex;
     align-items: center;
     font-family: $fontLogo;
-    font-weight: 600;
+    font-size: 2rem;
+
+    & p {
+        margin-top: 15px;
+        margin-left: -15px;
+    }
+
+    & p::after {
+        content: "game on";
+        margin: 5px 0 0 25px;
+        display: block;
+        font-size: 1.2rem;
+        color: $golden;
+    }
 }
 
 #sidebar {
@@ -75,6 +88,7 @@
 }
 
 #headline {
+    color: $golden;
     width: 100%;
     font-size: 3.5rem;
     text-align: center;
