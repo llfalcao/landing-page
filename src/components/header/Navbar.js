@@ -14,8 +14,8 @@ let Navbar = (
                 </a>
             </li>
             <li>
-                <a className="nav-btn" href="#offers">
-                    Offers
+                <a className="nav-btn" href="#deals">
+                    Deals
                 </a>
             </li>
             <li>

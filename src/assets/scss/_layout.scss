@@ -24,6 +24,34 @@ body {
 }
 
 .footer {
+    font-family: $fontRoboto;
     background-color: $transparentDarkBg;
     height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+
+    & .newsletter {
+        & #email,
+        #submit-email {
+            align-self: center;
+            font-family: $fontRoboto;
+            height: 25px;
+            margin: 10px 1px;
+            border-style: none;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        & #email {
+            width: 200px;
+        }
+
+        & #submit-email {
+            height: 27px;
+            cursor: pointer;
+        }
+    }
 }

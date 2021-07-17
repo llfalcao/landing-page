@@ -46,6 +46,7 @@
     border: 1px solid rgb(66, 66, 66);
     border-top-right-radius: 30px;
     height: fit-content;
+    padding-bottom: 5px;
 
     & header {
         font-weight: bold;
@@ -60,7 +61,7 @@
     & a {
         display: block;
         border-width: 1px;
-        margin: 5px;
+        margin: 5px 0 -5px 0;
         padding: 10px;
         border-color: #5c5c5c transparent transparent;
         border-style: solid;
@@ -88,7 +89,7 @@
     margin: 2.8rem 0 0 2rem;
 }
 
-#main-offers {
+#main-deals {
     width: 50vw;
     height: 100%;
     margin: 0 2rem;
@@ -114,7 +115,7 @@
     align-items: center;
 }
 
-.section-two-offers {
+.section-two-deals {
     width: 80vw;
     border-radius: 15px;
     display: flex;
@@ -139,7 +140,7 @@
     align-items: center;
     width: 200px;
     height: 290px;
-    margin: 10px;
+    margin: 10px 10px 40px;
     background: linear-gradient(
         to bottom,
         rgba(165, 165, 165, 0.02),
@@ -188,4 +189,26 @@
     & .fa {
         color: $btnForegroundColor;
     }
+}
+
+#scroll-top {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border-style: none;
+    color: $golden;
+    background: transparent;
+}
+
+#scroll-top:hover {
+    cursor: pointer;
+}
+
+#scroll-top::after {
+    content: "scroll to top";
+    align-self: center;
+    display: block;
+    margin: 10px;
+    font-family: $fontRoboto;
+    font-weight: 500;
 }

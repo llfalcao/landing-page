@@ -19,7 +19,7 @@ let HomeSectionOne = (
                 />
             </div>
 
-            <div className="container" id="main-offers">
+            <div className="container" id="main-deals">
                 <div id="headline">
                     <h1>
                         The latest games for

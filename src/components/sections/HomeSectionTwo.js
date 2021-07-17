@@ -16,9 +16,9 @@ import residentevil from "../../assets/images/game-cover/resident-evil.jpg";
 
 let HomeSectionTwo = (
     <>
-        <section className="section-two" id="offers">
+        <section className="section-two" id="deals">
             {Sidebar}
-            <div className="container section-two-offers">
+            <div className="container section-two-deals">
                 {ProductCard("Elden Ring", eldenring)}
                 {ProductCard("Assassin's Creed Valhalla", acvalhalla)}
                 {ProductCard("Red Dead Redemption 2", reddead)}
@@ -33,9 +33,14 @@ let HomeSectionTwo = (
                 {ProductCard("Mass Effect: Legendary Edition", masseffect)}
             </div>
         </section>
-        <button id="goto-top">
-            <i className="fa fa-arrow-circle-up fa-3x" aria-hidden="true"></i>
-        </button>
+        <a href="#home">
+            <button id="scroll-top">
+                <i
+                    className="fa fa-arrow-circle-up fa-3x"
+                    aria-hidden="true"
+                ></i>
+            </button>
+        </a>
         {Footer}
     </>
 );
