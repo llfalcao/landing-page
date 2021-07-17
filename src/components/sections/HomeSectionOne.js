@@ -1,16 +1,22 @@
 import Navbar from "../header/Navbar";
-import bgSectionOne from "../../assets/images/background/bg-2.jpg";
+import bgSectionOne from "../../assets/images/background/bg-1.jpg";
+import bgGradient from "../../assets/images/background/bg-gradient.png";
 import banner from "../../assets/images/banner/black-friday.png";
 import ProductCard from "../card/ProductCard";
+import battlefield from "../../assets/images/game-cover/battlefield.jpg";
+import cyberpunk from "../../assets/images/game-cover/cyberpunk.jpg";
+import acvalhalla from "../../assets/images/game-cover/ac-valhalla.jpg";
 
 let HomeSectionOne = (
     <section
         className="section-one"
         id="home"
-        style={{
-            backgroundImage: `url('${bgSectionOne}')`,
-            backgroundRepeat: "repeat",
-        }}
+        // style={{
+        //     background: `linear-gradient(rgba(10, 10, 10, 0.8) 75%, transparent 100%)`,
+        //     // background: `linear-gradient(to bottom,rgba(10, 10, 10, 0.9) 50%, transparent), url('${bgSectionOne}')`,
+        //     backgroundImage: `url('${bgSectionOne}')`,
+        //     backgroundRepeat: "repeat",
+        // }}
     >
         {Navbar}
         <div id="section-one-content">
@@ -24,14 +30,18 @@ let HomeSectionOne = (
                 />
             </div>
 
-            <div lass ontainid="main-offers">
+            <div className="container" id="main-offers">
                 <div id="headline">
-                    <h1>The latest games with the best prices</h1>
+                    <h1>
+                        The latest games for
+                        <br />
+                        the best prices
+                    </h1>
                 </div>
                 <div className="container main-sales">
-                    {ProductCard("Game Card 1")}
-                    {ProductCard("Game Card 2")}
-                    {ProductCard("Game Card 3")}
+                    {ProductCard("Battlefield 2042", battlefield)}
+                    {ProductCard("Assassin's Creed Valhalla", acvalhalla)}
+                    {ProductCard("Cyberpunk 2077", cyberpunk)}
                 </div>
             </div>
         </div>

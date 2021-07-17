@@ -1,13 +1,19 @@
-let ProductCard = function (title) {
+let ProductCard = function (title, imageName, price = 29.99) {
     return (
         <div className="game-card">
-            <div>
-                <img src="" alt={`${title} cover`}></img>
-            </div>
+            <div
+                id="gameImage"
+                style={{
+                    backgroundImage: `url('${imageName}')`,
+                    backgroundSize: "cover",
+                    backgroundRepeat: "no-repeat",
+                    backgroundPosition: "center",
+                }}
+            ></div>
             <p>{title}</p>
-            <p>
-                <i class="fa fa-cart-plus" aria-hidden="true"></i>$ 0.99
-            </p>
+            <button class="btn">
+                <i className="fa fa-cart-plus" aria-hidden="true"></i>$ {price}
+            </button>
         </div>
     );
 };

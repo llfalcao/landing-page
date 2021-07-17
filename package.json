@@ -12,11 +12,10 @@
         "web-vitals": "^1.1.2"
     },
     "scripts": {
-        "build-css": "node-sass src/assets/scss/styles.scss > src/styles/css/styles.css",
-        "watch-css": "npm run build-css && sass --watch ./src/assets/scss/styles.scss:src/styles/css/styles.css",
+        "watch-css": "node-sass --watch ./src/assets/scss/styles.scss",
         "start": "npm-run-all -p watch-css start-js",
-        "build": "npm run build-css && react-scripts build",
         "start-js": "react-scripts start",
+        "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject"
     },

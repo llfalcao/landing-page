@@ -1,16 +1,20 @@
 body {
+    background: $patternBackground;
     font-family: $fontRoboto;
     color: $foregroundTextWhite;
+    min-height: 100%;
+    max-width: 100%;
 }
 
 .section-one {
+    z-index: -1;
     width: 100%;
-    background-color: $darkBackground;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    background: url("../images/background/bg-gradient.png");
 }
 
 .section-two {
