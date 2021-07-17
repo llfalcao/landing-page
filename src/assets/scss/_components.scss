@@ -50,18 +50,10 @@
     }
 }
 
-#offers {
-    width: 80vw;
-    border-radius: 15px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 10px 30px;
-}
-
 #section-one-content {
     width: 100%;
+    height: 100vh;
+    border: 1px solid blue !important;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,13 +62,15 @@
 #main-offers {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     text-align: center;
 }
 
 #headline {
+    width: 100%;
     font-size: 3.5rem;
+    text-align: center;
 }
 
 .main-sales {
@@ -84,6 +78,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.section-two-offers {
+    width: 80vw;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 30px;
 }
 
 .game-card {

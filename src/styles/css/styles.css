@@ -4,8 +4,7 @@
    License: none (public domain)
 */
 * {
-  border: 1px solid gray !important;
-}
+  border: 1px solid gray !important; }
 
 html,
 body,
@@ -93,8 +92,7 @@ video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
 article,
@@ -108,44 +106,36 @@ hgroup,
 menu,
 nav,
 section {
-  display: block;
-}
+  display: block; }
 
 body {
-  line-height: 1;
-}
+  line-height: 1; }
 
 ol,
 ul {
-  list-style: none;
-}
+  list-style: none; }
 
 blockquote,
 q {
-  quotes: none;
-}
+  quotes: none; }
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
   content: "";
-  content: none;
-}
+  content: none; }
 
 table {
   border-collapse: collapse;
-  border-spacing: 0;
-}
+  border-spacing: 0; }
 
 html {
-  scroll-behavior: smooth;
-}
+  scroll-behavior: smooth; }
 
 body {
   font-family: "Roboto", sans-serif;
-  color: #eee;
-}
+  color: #eee; }
 
 .section-one {
   width: 100%;
@@ -154,15 +144,17 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
-}
+  align-items: center; }
 
 .section-two {
   background-color: #111111;
-  height: 100vh;
   display: flex;
   justify-content: space-between;
-}
+  padding: 20px; }
+
+.footer {
+  background-color: #111111;
+  height: 20vh; }
 
 #navbar {
   display: flex;
@@ -170,82 +162,74 @@ body {
   align-items: center;
   width: 100%;
   padding: 1rem 0;
-  font-size: calc(10px + 2vmin);
-}
-#navbar li {
-  display: inline;
-}
-#navbar a,
-#navbar a:visited {
-  text-decoration: none;
-  color: #eee;
-  padding: 0.9rem 1rem;
-}
+  font-size: calc(10px + 2vmin); }
+  #navbar li {
+    display: inline; }
+  #navbar a,
+  #navbar a:visited {
+    text-decoration: none;
+    color: #eee;
+    padding: 0.9rem 1rem; }
 
 #sidebar {
   background-color: #1d2021;
   display: block;
   margin: 10px;
   width: 20vw;
-  border-radius: 15px;
-}
-#sidebar header {
-  font-weight: bold;
-  display: block;
-  text-align: center;
-  margin: 5px;
-  padding: 10px;
-  color: #eee;
-}
-#sidebar a {
-  display: flex;
-  border-width: 1px;
-  margin: 5px;
-  padding: 10px;
-  border-color: #5c5c5c transparent transparent;
-  border-style: solid;
-  color: #eee;
-}
-#sidebar a:hover {
-  background-color: #1a1a1a;
-  transition: 0.5s;
-}
+  border-radius: 15px; }
+  #sidebar header {
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    color: #eee; }
+  #sidebar a {
+    display: flex;
+    border-width: 1px;
+    margin: 5px;
+    padding: 10px;
+    border-color: #5c5c5c transparent transparent;
+    border-style: solid;
+    color: #eee; }
+  #sidebar a:hover {
+    background-color: #1a1a1a;
+    transition: 0.5s; }
 
-#offers {
+#section-one-content {
+  width: 100%;
+  height: 100vh;
+  border: 1px solid blue !important;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#main-offers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+
+#headline {
+  width: 100%;
+  font-size: 3.5rem;
+  text-align: center; }
+
+.main-sales {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.section-two-offers {
   width: 80vw;
   border-radius: 15px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  margin: 10px 30px;
-}
-
-#section-one-content {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#main-offers {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  text-align: center;
-}
-
-#headline {
-  font-size: 3.5rem;
-}
-
-.main-sales {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  margin: 10px 30px; }
 
 .game-card {
   display: flex;
@@ -254,7 +238,4 @@ body {
   width: 180px;
   height: 220px;
   margin: 10px;
-  align-items: center;
-}
-
-/*# sourceMappingURL=styles.css.map */
+  align-items: center; }

@@ -6,6 +6,7 @@ import ProductCard from "../card/ProductCard";
 let HomeSectionOne = (
     <section
         className="section-one"
+        id="home"
         style={{
             backgroundImage: `url('${bgSectionOne}')`,
             backgroundRepeat: "repeat",

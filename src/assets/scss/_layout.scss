@@ -5,7 +5,7 @@ body {
 
 .section-one {
     width: 100%;
-    background-color: $sectionBackground;
+    background-color: $darkBackground;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -14,8 +14,14 @@ body {
 }
 
 .section-two {
-    background-color: $sectionBackground;
-    height: 100vh;
+    background-color: $darkBackground;
+    // height: 100vh;
     display: flex;
     justify-content: space-between;
+    padding: 20px;
+}
+
+.footer {
+    background-color: $darkBackground;
+    height: 20vh;
 }
