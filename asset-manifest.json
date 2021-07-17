@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/landing-page/static/css/main.ac2e2c78.chunk.css",
+    "main.js": "/landing-page/static/js/main.1913acfa.chunk.js",
+    "main.js.map": "/landing-page/static/js/main.1913acfa.chunk.js.map",
+    "runtime-main.js": "/landing-page/static/js/runtime-main.40bed43d.js",
+    "runtime-main.js.map": "/landing-page/static/js/runtime-main.40bed43d.js.map",
+    "static/js/2.afd202fe.chunk.js": "/landing-page/static/js/2.afd202fe.chunk.js",
+    "static/js/2.afd202fe.chunk.js.map": "/landing-page/static/js/2.afd202fe.chunk.js.map",
+    "static/js/3.9b7c7f10.chunk.js": "/landing-page/static/js/3.9b7c7f10.chunk.js",
+    "static/js/3.9b7c7f10.chunk.js.map": "/landing-page/static/js/3.9b7c7f10.chunk.js.map",
+    "index.html": "/landing-page/index.html",
+    "static/css/main.ac2e2c78.chunk.css.map": "/landing-page/static/css/main.ac2e2c78.chunk.css.map",
+    "static/js/2.afd202fe.chunk.js.LICENSE.txt": "/landing-page/static/js/2.afd202fe.chunk.js.LICENSE.txt",
+    "static/media/ac-valhalla.4f8a34b7.jpg": "/landing-page/static/media/ac-valhalla.4f8a34b7.jpg",
+    "static/media/battlefield.030835a8.jpg": "/landing-page/static/media/battlefield.030835a8.jpg",
+    "static/media/styles.scss": "/landing-page/static/media/bg-1.1b76f9e4.jpg",
+    "static/media/black-friday.42b2376a.png": "/landing-page/static/media/black-friday.42b2376a.png",
+    "static/media/cyberpunk.d40c5bb0.jpg": "/landing-page/static/media/cyberpunk.d40c5bb0.jpg",
+    "static/media/destiny.b8d5e223.jpg": "/landing-page/static/media/destiny.b8d5e223.jpg",
+    "static/media/doom.9b4218e1.jpg": "/landing-page/static/media/doom.9b4218e1.jpg",
+    "static/media/eldenring.e63b8330.jpg": "/landing-page/static/media/eldenring.e63b8330.jpg",
+    "static/media/farcry.6f191ca4.jpg": "/landing-page/static/media/farcry.6f191ca4.jpg",
+    "static/media/gran-turismo.5e0bf2d8.jpg": "/landing-page/static/media/gran-turismo.5e0bf2d8.jpg",
+    "static/media/just-dance.35cff950.jpg": "/landing-page/static/media/just-dance.35cff950.jpg",
+    "static/media/mass-effect.ac4fce17.jpg": "/landing-page/static/media/mass-effect.ac4fce17.jpg",
+    "static/media/red-dead-redemption.55873159.jpg": "/landing-page/static/media/red-dead-redemption.55873159.jpg",
+    "static/media/resident-evil.f4d5350e.jpg": "/landing-page/static/media/resident-evil.f4d5350e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.40bed43d.js",
+    "static/js/2.afd202fe.chunk.js",
+    "static/css/main.ac2e2c78.chunk.css",
+    "static/js/main.1913acfa.chunk.js"
+  ]
+}
