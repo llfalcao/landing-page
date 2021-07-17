@@ -1,0 +1,97 @@
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 0;
+    font-size: calc(10px + 2vmin);
+
+    & li {
+        display: inline;
+    }
+
+    & a,
+    a:visited {
+        text-decoration: none;
+        color: #eee;
+        padding: 0.9rem 1rem;
+    }
+}
+
+#sidebar {
+    background-color: #1d2021;
+    display: block;
+    margin: 10px;
+    width: 20vw;
+    border-radius: 15px;
+
+    & header {
+        font-weight: bold;
+        display: block;
+        text-align: center;
+        margin: 5px;
+        padding: 10px;
+        color: $foregroundTextWhite;
+    }
+
+    & a {
+        display: flex;
+        border-width: 1px;
+        margin: 5px;
+        padding: 10px;
+        border-color: #5c5c5c transparent transparent;
+        border-style: solid;
+        color: $foregroundTextWhite;
+    }
+
+    & a:hover {
+        background-color: rgb(26, 26, 26);
+        transition: 0.5s;
+    }
+}
+
+#offers {
+    width: 80vw;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 30px;
+}
+
+#section-one-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-offers {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+#headline {
+    font-size: 3.5rem;
+}
+
+.main-sales {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 180px;
+    height: 220px;
+    margin: 10px;
+    align-items: center;
+}

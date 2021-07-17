@@ -1,0 +1,21 @@
+body {
+    font-family: $fontRoboto;
+    color: $foregroundTextWhite;
+}
+
+.section-one {
+    width: 100%;
+    background-color: $sectionBackground;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.section-two {
+    background-color: $sectionBackground;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
