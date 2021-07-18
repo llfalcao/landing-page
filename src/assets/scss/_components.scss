@@ -6,6 +6,11 @@
     font-weight: 600;
     font-size: calc(10px + 2vmin);
 
+    & ul {
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgb(73, 73, 73);
+    }
+
     & li {
         display: inline;
     }
