@@ -1,6 +1,7 @@
 import Sidebar from "../sidebar/Sidebar";
 import ProductCard from "../card/ProductCard";
 import Footer from "../footer/Footer";
+
 import acvalhalla from "../../assets/images/game-cover/ac-valhalla.jpg";
 import battlefield from "../../assets/images/game-cover/battlefield.jpg";
 import cyberpunk from "../../assets/images/game-cover/cyberpunk.jpg";

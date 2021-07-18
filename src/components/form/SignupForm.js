@@ -22,13 +22,7 @@ class SignupForm extends Component {
                         name="email"
                         placeholder="myemail@email.com"
                     />
-
-                    <input
-                        type="submit"
-                        id="submit-email"
-                        name="submit"
-                        value="Submit"
-                    />
+                    <input type="submit" id="submit-email" value="Submit" />
                 </form>
             </div>
         );
