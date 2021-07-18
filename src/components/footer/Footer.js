@@ -1,7 +1,10 @@
+import SignupForm from "../form/SignupForm";
+
 let Footer = (
     <footer className="footer" id="contact">
-        <form className="newsletter">
-            <label for="email">Sign up for our latest deals!</label>
+        <SignupForm />
+        {/* <form className="newsletter">
+            <label htmlFor="email">Sign up for our latest deals!</label>
             <br />
             <input
                 type="email"
@@ -16,7 +19,7 @@ let Footer = (
                 name="submit"
                 value="Submit"
             />
-        </form>
+        </form> */}
     </footer>
 );
 

@@ -11,7 +11,7 @@ let ProductCard = function (title, imageName, price = 29.99) {
                 }}
             ></div>
             <p>{title}</p>
-            <button class="btn">
+            <button className="btn">
                 <i className="fa fa-cart-plus" aria-hidden="true"></i>$ {price}
             </button>
         </div>
