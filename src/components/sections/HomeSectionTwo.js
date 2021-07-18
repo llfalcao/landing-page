@@ -18,7 +18,7 @@ let HomeSectionTwo = (
     <>
         <section className="section-two" id="deals">
             {Sidebar}
-            <div className="container section-two-deals">
+            <div className="container" id="section-two-deals">
                 {ProductCard("Elden Ring", eldenring)}
                 {ProductCard("Assassin's Creed Valhalla", acvalhalla)}
                 {ProductCard("Red Dead Redemption 2", reddead)}

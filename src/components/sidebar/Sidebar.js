@@ -16,9 +16,6 @@ let Sidebar = (
         <a className="nav-link" href="#Card_Games">
             Card Games
         </a>
-        <a className="nav-link" href="#Educational">
-            Educational
-        </a>
         <a className="nav-link" href="#MMORPG">
             MMORPG
         </a>
