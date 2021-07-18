@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/landing-page/static/css/main.743ee6ba.chunk.css",
-    "main.js": "/landing-page/static/js/main.f50e5f24.chunk.js",
-    "main.js.map": "/landing-page/static/js/main.f50e5f24.chunk.js.map",
-    "runtime-main.js": "/landing-page/static/js/runtime-main.40bed43d.js",
-    "runtime-main.js.map": "/landing-page/static/js/runtime-main.40bed43d.js.map",
-    "static/js/2.afd202fe.chunk.js": "/landing-page/static/js/2.afd202fe.chunk.js",
-    "static/js/2.afd202fe.chunk.js.map": "/landing-page/static/js/2.afd202fe.chunk.js.map",
-    "static/js/3.9b7c7f10.chunk.js": "/landing-page/static/js/3.9b7c7f10.chunk.js",
-    "static/js/3.9b7c7f10.chunk.js.map": "/landing-page/static/js/3.9b7c7f10.chunk.js.map",
+    "main.css": "/landing-page/static/css/main.b0a101c0.chunk.css",
+    "main.js": "/landing-page/static/js/main.cc70dbd4.chunk.js",
+    "main.js.map": "/landing-page/static/js/main.cc70dbd4.chunk.js.map",
+    "runtime-main.js": "/landing-page/static/js/runtime-main.82fd11bb.js",
+    "runtime-main.js.map": "/landing-page/static/js/runtime-main.82fd11bb.js.map",
+    "static/js/2.2e049d95.chunk.js": "/landing-page/static/js/2.2e049d95.chunk.js",
+    "static/js/2.2e049d95.chunk.js.map": "/landing-page/static/js/2.2e049d95.chunk.js.map",
+    "static/js/3.e800a99a.chunk.js": "/landing-page/static/js/3.e800a99a.chunk.js",
+    "static/js/3.e800a99a.chunk.js.map": "/landing-page/static/js/3.e800a99a.chunk.js.map",
     "index.html": "/landing-page/index.html",
-    "static/css/main.743ee6ba.chunk.css.map": "/landing-page/static/css/main.743ee6ba.chunk.css.map",
-    "static/js/2.afd202fe.chunk.js.LICENSE.txt": "/landing-page/static/js/2.afd202fe.chunk.js.LICENSE.txt",
+    "static/css/main.b0a101c0.chunk.css.map": "/landing-page/static/css/main.b0a101c0.chunk.css.map",
+    "static/js/2.2e049d95.chunk.js.LICENSE.txt": "/landing-page/static/js/2.2e049d95.chunk.js.LICENSE.txt",
     "static/media/ac-valhalla.4f8a34b7.jpg": "/landing-page/static/media/ac-valhalla.4f8a34b7.jpg",
     "static/media/battlefield.030835a8.jpg": "/landing-page/static/media/battlefield.030835a8.jpg",
     "static/media/styles.scss": "/landing-page/static/media/bg-gradient.24085d4e.png",
@@ -28,9 +28,9 @@
     "static/media/resident-evil.f4d5350e.jpg": "/landing-page/static/media/resident-evil.f4d5350e.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.40bed43d.js",
-    "static/js/2.afd202fe.chunk.js",
-    "static/css/main.743ee6ba.chunk.css",
-    "static/js/main.f50e5f24.chunk.js"
+    "static/js/runtime-main.82fd11bb.js",
+    "static/js/2.2e049d95.chunk.js",
+    "static/css/main.b0a101c0.chunk.css",
+    "static/js/main.cc70dbd4.chunk.js"
   ]
 }
