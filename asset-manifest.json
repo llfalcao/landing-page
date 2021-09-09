@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/landing-page/static/css/main.1e9533f7.chunk.css",
-    "main.js": "/landing-page/static/js/main.cc70dbd4.chunk.js",
-    "main.js.map": "/landing-page/static/js/main.cc70dbd4.chunk.js.map",
+    "main.css": "/landing-page/static/css/main.7b937f5d.chunk.css",
+    "main.js": "/landing-page/static/js/main.53bad209.chunk.js",
+    "main.js.map": "/landing-page/static/js/main.53bad209.chunk.js.map",
     "runtime-main.js": "/landing-page/static/js/runtime-main.82fd11bb.js",
     "runtime-main.js.map": "/landing-page/static/js/runtime-main.82fd11bb.js.map",
     "static/js/2.2e049d95.chunk.js": "/landing-page/static/js/2.2e049d95.chunk.js",
@@ -10,17 +10,17 @@
     "static/js/3.e800a99a.chunk.js": "/landing-page/static/js/3.e800a99a.chunk.js",
     "static/js/3.e800a99a.chunk.js.map": "/landing-page/static/js/3.e800a99a.chunk.js.map",
     "index.html": "/landing-page/index.html",
-    "static/css/main.1e9533f7.chunk.css.map": "/landing-page/static/css/main.1e9533f7.chunk.css.map",
+    "static/css/main.7b937f5d.chunk.css.map": "/landing-page/static/css/main.7b937f5d.chunk.css.map",
     "static/js/2.2e049d95.chunk.js.LICENSE.txt": "/landing-page/static/js/2.2e049d95.chunk.js.LICENSE.txt",
     "static/media/ac-valhalla.4f8a34b7.jpg": "/landing-page/static/media/ac-valhalla.4f8a34b7.jpg",
     "static/media/battlefield.030835a8.jpg": "/landing-page/static/media/battlefield.030835a8.jpg",
-    "static/media/styles.scss": "/landing-page/static/media/bg-gradient.24085d4e.png",
-    "static/media/black-friday.42b2376a.png": "/landing-page/static/media/black-friday.42b2376a.png",
+    "static/media/styles.scss": "/landing-page/static/media/bg-1.1b76f9e4.jpg",
+    "static/media/black-friday.9a9023d8.png": "/landing-page/static/media/black-friday.9a9023d8.png",
+    "static/media/bmwukong.6f6d6124.jpg": "/landing-page/static/media/bmwukong.6f6d6124.jpg",
     "static/media/cyberpunk.d40c5bb0.jpg": "/landing-page/static/media/cyberpunk.d40c5bb0.jpg",
     "static/media/destiny.b8d5e223.jpg": "/landing-page/static/media/destiny.b8d5e223.jpg",
     "static/media/doom.9b4218e1.jpg": "/landing-page/static/media/doom.9b4218e1.jpg",
     "static/media/eldenring.e63b8330.jpg": "/landing-page/static/media/eldenring.e63b8330.jpg",
-    "static/media/farcry.6f191ca4.jpg": "/landing-page/static/media/farcry.6f191ca4.jpg",
     "static/media/gran-turismo.5e0bf2d8.jpg": "/landing-page/static/media/gran-turismo.5e0bf2d8.jpg",
     "static/media/just-dance.35cff950.jpg": "/landing-page/static/media/just-dance.35cff950.jpg",
     "static/media/mass-effect.ac4fce17.jpg": "/landing-page/static/media/mass-effect.ac4fce17.jpg",
@@ -30,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.82fd11bb.js",
     "static/js/2.2e049d95.chunk.js",
-    "static/css/main.1e9533f7.chunk.css",
-    "static/js/main.cc70dbd4.chunk.js"
+    "static/css/main.7b937f5d.chunk.css",
+    "static/js/main.53bad209.chunk.js"
   ]
 }
