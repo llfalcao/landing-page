@@ -31,26 +31,42 @@ body {
     justify-content: center;
     text-align: center;
     font-size: 1.5rem;
+    color: #ddd;
+}
 
-    & .newsletter {
-        & #email,
-        #submit-email {
-            align-self: center;
-            font-family: $fontRoboto;
-            height: 25px;
-            margin: 10px 1px;
-            border-style: none;
-            border-radius: 5px;
-            font-size: 1rem;
-        }
+.newsletter {
+    & #email,
+    #submit-email {
+        align-self: center;
+        font-family: $fontRoboto;
+        height: 25px;
+        margin: 10px 0;
+        padding: 0.5rem;
+        border-style: none;
+        border-radius: 3px;
+        font-size: 1rem;
+        height: auto;
+    }
 
-        & #email {
-            width: 200px;
-        }
+    & #email {
+        width: 300px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        border: 1px solid #005aa7;
+        opacity: 0.8;
+    }
 
-        & #submit-email {
-            height: 27px;
-            cursor: pointer;
-        }
+    & #email:focus {
+        outline: none;
+        opacity: 1;
+    }
+
+    & #submit-email {
+        cursor: pointer;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        background-color: #005aa7;
+        border: 1px solid #005aa7;
+        color: #fff;
     }
 }
