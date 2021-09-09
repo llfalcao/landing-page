@@ -6,6 +6,12 @@
     }
 }
 
+@media (max-width: 1200px) {
+    #main-deals {
+        width: 460px;
+    }
+}
+
 @media (max-width: 1000px) {
     // Sidebar above product grid
     .section-two {

@@ -20,9 +20,9 @@ let HomeSectionOne = (
             <div className="container" id="main-deals">
                 <div id="headline">
                     <h1>
-                        The latest games for
+                        The latest games
                         <br />
-                        the best prices
+                        for the best prices
                     </h1>
                 </div>
                 <div className="container main-sales">
