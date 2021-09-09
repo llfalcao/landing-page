@@ -1,3 +1,4 @@
+// Header
 #navbar {
     display: flex;
     justify-content: space-around;
@@ -8,13 +9,16 @@
 
     & li {
         display: inline;
+
+        & a {
+            padding: 0.9rem 1rem;
+        }
     }
 
     & a,
     a:visited {
         text-decoration: none;
         color: $foregroundTextWhite;
-        padding: 0.9rem 1rem;
         transition: 0.3s;
     }
 
@@ -23,6 +27,7 @@
     }
 }
 
+// Logo section
 .company {
     display: flex;
     align-items: center;
@@ -54,22 +59,29 @@
     }
 }
 
+// Section 1
 #section-one-content {
     width: 100%;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
 }
 
-#banner {
-    width: 30vw;
-    height: auto;
-    margin: 2.8rem 0 0 2rem;
+#banner-black-friday {
+    width: 550px;
+    transform: translate(-35%, -5%);
+    position: absolute;
+    z-index: -1;
+    left: 22%;
+    top: 5%;
+    filter: hue-rotate(210deg);
 }
 
+// Section 1 Container for title and cards
 #main-deals {
-    width: 50vw;
     height: 100%;
     margin: 0 2rem;
     display: flex;
@@ -77,6 +89,7 @@
     justify-content: flex-start;
     align-items: center;
     text-align: center;
+    transform: translateX(30%);
 }
 
 #headline {
@@ -84,33 +97,37 @@
     width: 100%;
     font-size: 3.5rem;
     text-align: center;
+    padding-bottom: 2rem;
 }
 
 .main-sales {
     width: 100%;
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+// Section 2
 #section-two-deals {
     width: 80vw;
-    border-radius: 15px;
+    border-radius: 5px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    margin: 10px 30px;
+    margin: 10px 10px 10px 30px;
     padding: 30px;
     background: $transparentDarkBg;
     border: 1px solid $grayBorder;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px #000;
 
     & p {
         text-align: center;
     }
 }
 
+// Section 2 - Game Categories
 #sidebar {
     background: $transparentDarkBg;
     display: block;
@@ -145,12 +162,12 @@
     }
 
     & a:hover {
-        // background-color: #222;
         background-color: rgba(0, 0, 0, 0.3);
         color: $golden;
     }
 }
 
+// General - Game Cards
 .game-card {
     display: flex;
     flex-direction: column;
@@ -165,6 +182,7 @@
         rgba(48, 48, 48, 0.2),
         rgba(197, 197, 197, 0.2)
     );
+
     background-size: 200% 100%;
     background-position: 50%;
     box-shadow: 0px 0px 10px #000;
@@ -173,10 +191,12 @@
     cursor: pointer;
     transition: 0.5s;
 
-    & div {
+    & #gameImage {
         width: 130px;
         height: 200px;
         margin: 10px;
+        background-size: cover;
+        background-position: 50% 0;
     }
 
     & p {
@@ -186,6 +206,7 @@
         margin: 0 10px 10px;
         width: 75%;
         height: 30px;
+        text-shadow: 0 0 4px #000;
     }
 
     & .btn {
@@ -199,7 +220,7 @@
         font-family: $fontRoboto;
         font-size: 1.1rem;
         font-weight: 400;
-        border-radius: 5px;
+        border-radius: 3px;
         border: 1px solid rgb(66, 66, 66);
         color: $foregroundTextWhite;
         background-color: #00420f;
@@ -221,11 +242,12 @@
 }
 
 .game-card:hover {
-    background-size: 200px 100%;
+    background-size: 100% 100%;
     box-shadow: 0 0 10px #000, inset 0 0 2px gray;
     transition: 0.5s;
 }
 
+// Fixed button to scroll to top
 #scroll-top {
     position: fixed;
     right: 20px;

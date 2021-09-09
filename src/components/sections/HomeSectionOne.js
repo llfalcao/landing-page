@@ -1,9 +1,9 @@
-import Navbar from "../header/Navbar";
-import banner from "../../assets/images/banner/black-friday.png";
-import ProductCard from "../card/ProductCard";
-import battlefield from "../../assets/images/game-cover/battlefield.jpg";
-import cyberpunk from "../../assets/images/game-cover/cyberpunk.jpg";
-import acvalhalla from "../../assets/images/game-cover/ac-valhalla.jpg";
+import Navbar from '../header/Navbar';
+import banner from '../../assets/images/banner/black-friday.png';
+import ProductCard from '../card/ProductCard';
+import battlefield from '../../assets/images/game-cover/battlefield.jpg';
+import cyberpunk from '../../assets/images/game-cover/cyberpunk.jpg';
+import acvalhalla from '../../assets/images/game-cover/ac-valhalla.jpg';
 
 let HomeSectionOne = (
     <section className="section-one" id="home">
@@ -14,8 +14,6 @@ let HomeSectionOne = (
                     id="banner-black-friday"
                     src={banner}
                     alt="Black Friday banner"
-                    width="600px"
-                    height="auto"
                 />
             </div>
 
@@ -28,9 +26,9 @@ let HomeSectionOne = (
                     </h1>
                 </div>
                 <div className="container main-sales">
-                    {ProductCard("Battlefield 2042", battlefield)}
+                    {ProductCard('Battlefield 2042', battlefield)}
                     {ProductCard("Assassin's Creed Valhalla", acvalhalla)}
-                    {ProductCard("Cyberpunk 2077", cyberpunk)}
+                    {ProductCard('Cyberpunk 2077', cyberpunk)}
                 </div>
             </div>
         </div>

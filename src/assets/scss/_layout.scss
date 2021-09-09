@@ -2,7 +2,6 @@ body {
     background: $patternBg, linear-gradient(black, transparent 22%);
     background-repeat: repeat, no-repeat;
     background-blend-mode: overlay;
-
     font-family: $fontRoboto;
     color: $foregroundTextWhite;
     min-height: 100%;
@@ -11,7 +10,6 @@ body {
 
 .section-one {
     width: 100%;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
