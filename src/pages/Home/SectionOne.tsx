@@ -9,7 +9,7 @@ export default function SectionOne() {
         <div id="banner">
           <img
             id="banner-black-friday"
-            src="/images/banner/black-friday.png"
+            src="/landing-page/images/banner/black-friday.png"
             alt="Black Friday banner"
           />
         </div>
@@ -25,15 +25,15 @@ export default function SectionOne() {
           <div className="container main-sales">
             <ProductCard
               title="Battlefield 2042"
-              imageUrl="/images/covers/battlefield.jpg"
+              imageUrl="/landing-page/images/covers/battlefield.jpg"
             />
             <ProductCard
               title="Assassin's Creed Valhalla"
-              imageUrl="/images/covers/ac-valhalla.jpg"
+              imageUrl="/landing-page/images/covers/ac-valhalla.jpg"
             />
             <ProductCard
               title="Cyberpunk 2077"
-              imageUrl="/images/covers/cyberpunk.jpg"
+              imageUrl="/landing-page/images/covers/cyberpunk.jpg"
             />
           </div>
         </div>
