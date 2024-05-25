@@ -71,16 +71,17 @@
 }
 
 #banner-black-friday {
-    width: 550px;
-    transform: translate(-35%, -5%);
-    position: absolute;
-    z-index: -1;
-    left: 22%;
-    top: 5%;
+    width: 100%;
     filter: hue-rotate(210deg);
 }
 
 // Section 1 Container for title and cards
+#banner {
+    width: 550px;
+    margin-right: -100px;
+    z-index: -1;
+}
+
 #main-deals {
     height: 100%;
     margin: 0 2rem;
@@ -89,7 +90,6 @@
     justify-content: flex-start;
     align-items: center;
     text-align: center;
-    transform: translateX(30%);
 }
 
 #headline {
