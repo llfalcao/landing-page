@@ -1,9 +1,4 @@
-import Sidebar from "../sidebar/Sidebar";
-
-import Footer from "../footer/Footer";
-import ProductCard from "../ProductCard";
-
-const games = [
+export const games = [
   {
     title: "Elden Ring",
     imageUrl: "/images/covers/eldenring.jpg",
@@ -53,28 +48,3 @@ const games = [
     imageUrl: "/images/covers/mass-effect.jpg",
   },
 ];
-
-let HomeSectionTwo = (
-  <>
-    <section className="section-two" id="deals">
-      {Sidebar}
-      <div className="container" id="section-two-deals">
-        {games.map((game) => (
-          <ProductCard
-            key={game.title}
-            title={game.title}
-            imageUrl={game.imageUrl}
-          />
-        ))}
-      </div>
-    </section>
-    <a href="#home">
-      <button id="scroll-top">
-        <i className="fa fa-arrow-circle-up fa-3x" aria-hidden="true" />
-      </button>
-    </a>
-    {Footer}
-  </>
-);
-
-export default HomeSectionTwo;
