@@ -1,49 +1,80 @@
-import Sidebar from '../sidebar/Sidebar';
-import ProductCard from '../card/ProductCard';
-import Footer from '../footer/Footer';
+import Sidebar from "../sidebar/Sidebar";
 
-import acvalhalla from '../../assets/images/game-cover/ac-valhalla.jpg';
-import battlefield from '../../assets/images/game-cover/battlefield.jpg';
-import cyberpunk from '../../assets/images/game-cover/cyberpunk.jpg';
-import destiny from '../../assets/images/game-cover/destiny.jpg';
-import doom from '../../assets/images/game-cover/doom.jpg';
-import eldenring from '../../assets/images/game-cover/eldenring.jpg';
-import bmwukong from '../../assets/images/game-cover/bmwukong.jpg';
-import granturismo from '../../assets/images/game-cover/gran-turismo.jpg';
-import justdance from '../../assets/images/game-cover/just-dance.jpg';
-import masseffect from '../../assets/images/game-cover/mass-effect.jpg';
-import reddead from '../../assets/images/game-cover/red-dead-redemption.jpg';
-import residentevil from '../../assets/images/game-cover/resident-evil.jpg';
+import Footer from "../footer/Footer";
+import ProductCard from "../ProductCard";
+
+const games = [
+  {
+    title: "Elden Ring",
+    imageUrl: "/images/covers/eldenring.jpg",
+  },
+  {
+    title: "Assassin's Creed Valhalla",
+    imageUrl: "/images/covers/ac-valhalla.jpg",
+  },
+  {
+    title: "Red Dead Redemption 2",
+    imageUrl: "/images/covers/red-dead-redemption.jpg",
+  },
+  {
+    title: "Resident Evil: Village",
+    imageUrl: "/images/covers/resident-evil.jpg",
+  },
+  {
+    title: "Gran Turismo 7",
+    imageUrl: "/images/covers/gran-turismo.jpg",
+  },
+  {
+    title: "Battlefield 2042",
+    imageUrl: "/images/covers/battlefield.jpg",
+  },
+  {
+    title: "Doom Eternal",
+    imageUrl: "/images/covers/doom.jpg",
+  },
+  {
+    title: "Black Myth: Wukong",
+    imageUrl: "/images/covers/bmwukong.jpg",
+  },
+  {
+    title: "Destiny 2: Beyond Light",
+    imageUrl: "/images/covers/destiny.jpg",
+  },
+  {
+    title: "Cyberpunk 2077",
+    imageUrl: "/images/covers/cyberpunk.jpg",
+  },
+  {
+    title: "Just Dance 2022",
+    imageUrl: "/images/covers/just-dance.jpg",
+  },
+  {
+    title: "Mass Effect: Legendary Edition",
+    imageUrl: "/images/covers/mass-effect.jpg",
+  },
+];
 
 let HomeSectionTwo = (
-    <>
-        <section className="section-two" id="deals">
-            {Sidebar}
-            <div className="container" id="section-two-deals">
-                {ProductCard('Elden Ring', eldenring)}
-                {ProductCard("Assassin's Creed Valhalla", acvalhalla)}
-                {ProductCard('Red Dead Redemption 2', reddead)}
-                {ProductCard('Resident Evil: Village', residentevil)}
-                {ProductCard('Gran Turismo 7', granturismo)}
-                {ProductCard('Battlefield 2042', battlefield)}
-                {ProductCard('Doom Eternal', doom)}
-                {ProductCard('Black Myth: Wukong', bmwukong)}
-                {ProductCard('Destiny 2: Beyond Light', destiny)}
-                {ProductCard('Cyberpunk 2077', cyberpunk)}
-                {ProductCard('Just Dance 2022', justdance)}
-                {ProductCard('Mass Effect: Legendary Edition', masseffect)}
-            </div>
-        </section>
-        <a href="#home">
-            <button id="scroll-top">
-                <i
-                    className="fa fa-arrow-circle-up fa-3x"
-                    aria-hidden="true"
-                ></i>
-            </button>
-        </a>
-        {Footer}
-    </>
+  <>
+    <section className="section-two" id="deals">
+      {Sidebar}
+      <div className="container" id="section-two-deals">
+        {games.map((game) => (
+          <ProductCard
+            key={game.title}
+            title={game.title}
+            imageUrl={game.imageUrl}
+          />
+        ))}
+      </div>
+    </section>
+    <a href="#home">
+      <button id="scroll-top">
+        <i className="fa fa-arrow-circle-up fa-3x" aria-hidden="true" />
+      </button>
+    </a>
+    {Footer}
+  </>
 );
 
 export default HomeSectionTwo;
