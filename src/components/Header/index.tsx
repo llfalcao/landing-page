@@ -39,9 +39,8 @@ export default function Header() {
       </div>
       <ul>
         {links.map((link, index) => (
-          <li>
+          <li key={link.href}>
             <a
-              key={link.href}
               className={`nav-btn ${index === 1 ? "active" : ""}`}
               href={link.href}
             >
